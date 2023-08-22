@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+ 
+}
+.nav div {
+    width: 50%;
+    color: rgba(0,0,0,.5);
+}
+
+.nav div img{
+     height: 50px;
+     width: 50px;
+     margin-left:30px ;
+     
+}
+.nav div:first-child{
+    color: red;
+
+}
+.nav div :hover{color: rgb(118, 85, 35);
+cursor: pointer;
+}
+.nav div button{
+    padding: 10px;
+    background-color:#ff7a57;
+    border-color: #ff7a57;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+
+}
+.sec{
+display: flex;
+}
